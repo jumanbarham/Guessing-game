@@ -16,7 +16,7 @@ function getUserName() {
 function questions() {
     for (let index = 0; index < questionsArray.length; index++) {
         let question = questionsArray[index][0];
-        tempAnswer = readAnswer(question);
+       let tempAnswer = readAnswer(question);
         if (tempAnswer.toLowerCase==questionsArray[index][1]) {
             alert('You are RIGHT!');
             result++;        
