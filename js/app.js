@@ -5,7 +5,12 @@ let user = '';
 let answer = '';
 let questionsArray =[
     ['Am I influenced by communism? yes/no','yes'],
- ['Am I an anarchist? yes/no', 'no']
+ ['Am I an anarchist? yes/no', 'no'],
+ ['Do I like reading ? yes/no', 'yes'],
+ ['Do I pray ? yes/no', 'yes'],
+ ['Do I speak three languages? yes/no', 'no'],
+ ['DO I have a fiancee? yes/no', 'yes'],
+ ['Do I like a clasic music? yes/no', 'yes'],
 ];
 
 function getUserName() {
