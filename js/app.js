@@ -17,7 +17,7 @@ function questions() {
     for (let index = 0; index < questionsArray.length; index++) {
         let question = questionsArray[index][0];
        let tempAnswer = readAnswer(question);
-        if (tempAnswer.toLowerCase==questionsArray[index][1]) {
+        if (tempAnswer.toLowerCase()==questionsArray[index][1]) {
             alert('You are RIGHT!');
             result++;        
         }
