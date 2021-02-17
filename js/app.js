@@ -32,7 +32,7 @@ function readAnswer(question) {
 answer = '';
   do{
     answer = prompt(question);
-  }while ((answer != 'YES' || answer != 'yes') || (answer != 'NO' || answer != 'no')) 
+  }while ((answer != 'YES' && answer != 'yes') && (answer != 'NO' && answer != 'no')) 
 
   return answer;
 }
