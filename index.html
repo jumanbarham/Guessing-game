@@ -1,4 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
 
+    <title>Gussing Game About Me</title>
+</head>
+<link rel="stylesheet" href="css/style.css" />
+
+<script src = "js/app.js" > </script>
+<body>
+
+
+
+
+    <header>
+
+<nav>
+<ul>
+    <li> <a href=""> home</a></li>
+    <li><a href=""> Contact</a></li>
+    <li><a href=""> About</a></li>
+</ul>
+</nav>
+
+
+    </header>
+
+
+    <div class="juman.png">
+
+        <img class="img1" src="data:image/jpeg;base64,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" alt="">
+    
+        </div>
+
+
+    <p class="p1"> Hello , my name is <span class="name-span">juman barham</span>, 26 years old, My name is Juman Barham, I am 26 I graduated from the Department of Political Science at the University of Jordan with an excellent grade, and I finished the MA in Political and International Economy with an excellent grade I worked as a teacher
+        for one semester, and taught an economic researcher for a year, I am excited to learn more about programming during this class.</p>
+
+        <div class="first">
+            <h2 class="head-title">Gussing Game</h2>
+        <p>What is your name? </p>
+        <p>My name is juman? yes/no </p>
+        <p>Do I like reading ? y/n</p>
+        <p>Am I influenced by communism? y/n</p>
+        <p>Am I an anarchist? y/n </p>
+        <p>Do I pray ? yes or no </p>
+        </div>
+
+<div class="top-ten">
+<h1>Top Ten</h1>
+<h2>There is the top ten book for me:</h2>
+<ol>
     <li>Orientalism </li>
     <li>ِWords and things</li>
     <li>The Communist Manifesto</li>
